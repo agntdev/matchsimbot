@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/set_target",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Configure the target game server endpoint"
+            }
+          }
+        ],
+        "send": {
+          "text": "/set_target"
+        }
+      }
+    ]
+  }
+]
