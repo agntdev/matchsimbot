@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/list_scripts",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "List stored scripts with metadata"
+            }
+          }
+        ],
+        "send": {
+          "text": "/list_scripts"
+        }
+      }
+    ]
+  }
+]
