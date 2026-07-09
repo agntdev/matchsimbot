@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/run",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Start a script run against a match (requires script name and match ID)"
+            }
+          }
+        ],
+        "send": {
+          "text": "/run"
+        }
+      }
+    ]
+  }
+]
